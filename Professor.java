@@ -18,7 +18,8 @@ public class Professor extends Funcionario {
     public String toString() {
         return "Nome: " + super.getNome() +
                "\nCPF: " + super.getCpf() +
-               "\nURL Curriculo Lattes: " + urlCurriculoLattes;
+               "\nURL Curriculo Lattes: " + urlCurriculoLattes +
+               "\nDisciplinas: " + disciplinas;
     }
 
     public void addDisciplina(Disciplina disciplina) {
